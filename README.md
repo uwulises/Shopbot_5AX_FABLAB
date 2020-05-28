@@ -6,4 +6,4 @@ Repositorio destinado a documentar cambios que se hicieron a la Router CNC 5 eje
 # Rutinas editadas
 
 Get tool length
-_XYZAB zero
+XYZAB zero
