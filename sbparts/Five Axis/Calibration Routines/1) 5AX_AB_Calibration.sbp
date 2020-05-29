@@ -174,7 +174,7 @@ FIND_PLATE_FRONT:
 	RETURN
 
 GET_TOTAL_LENGTH:
-	J5,,- (&plate_width /2 + &move_over_lat),,90,90 'move over and rotate
+	J5,,- (&plate_width /2 + &move_over_lat),,-90,90 'move over and rotate
 	JZ, -&jog_down_lat 'lower z
 	IF %(&plate_sysvar) = 1 THEN GOTO CLOSED_EXIT 'check if input is already closed
 	ON INPUT(&plate_input, 1) GOTO LATERAL_TOP_CONTACT 'start checking for input
@@ -256,10 +256,10 @@ SQUARE_A:
 			GOTO FAILED_CONTACT_EXIT 'if you make it here, you didn't contact anything
 			A_CONTACT_RIGHT:
 			&ThetaA_R = -90 - %(4) 'angle of rotation
-			JA, 90  
+			JA, -90
 		'left side (a = 90)
 		JZ, 0
-		J5,,&total_length - &over_shoot_start,,-90, ' Comentario 1 -90 Era 90
+		J5,,&total_length - &over_shoot_start,,90,
 		JZ, &lat_top - &A_start_depth
 		IF %(&plate_sysvar) = 1 THEN GOTO CLOSED_EXIT 'check if input is already closed
 		ON INPUT(&plate_input, 1) GOTO A_CONTACT_LEFT 'start checking for input
@@ -267,7 +267,7 @@ SQUARE_A:
 			GOTO FAILED_CONTACT_EXIT 'if you make it here, you didn't contact anything
 			A_CONTACT_LEFT:
 			&ThetaA_L = %(4) - 90 'angle of rotation
-			JA, -90 
+			JA, 90
 		'print "ThetaA_L", &ThetaA_L
 		'print "ThetaA_R", &ThetaA_R
 		'adjust a-axis
@@ -283,10 +283,10 @@ SQUARE_A:
 			GOTO FAILED_CONTACT_EXIT 'if you make it here, you didn't contact anything
 			A_CONTACT_LEFT2:
 			&ThetaA_L2 = %(4) - 90 'angle of rotation
-			JA, -90  'Comentario 1
+			JA, 90
 		'right side
 		JZ, 0
-		J5,,- &total_length + &over_shoot_check,,90, 'Comentario 1 90 era -90
+		J5,,- &total_length + &over_shoot_check,,-90,
 		JZ, &lat_top - &A_start_depth
 		IF %(&plate_sysvar) = 1 THEN GOTO CLOSED_EXIT 'check if input is already closed
 		ON INPUT(&plate_input, 1) GOTO A_CONTACT_RIGHT2 'start checking for input
@@ -294,7 +294,7 @@ SQUARE_A:
 			GOTO FAILED_CONTACT_EXIT 'if you make it here, you didn't contact anything
 			A_CONTACT_RIGHT2:
 			&ThetaA_R2 = -90 - %(4) 'angle of rotation
-			JA, 90 'Comentario 1
+			JA, -90
 		'print "ThetaA_L2", &ThetaA_L2
 		'print "ThetaA_R2", &ThetaA_R2
 		'adjust a-axis

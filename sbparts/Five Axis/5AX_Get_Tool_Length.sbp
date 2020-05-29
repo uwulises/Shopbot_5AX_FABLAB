@@ -49,14 +49,13 @@
 
 GOSUB Prompt_Start 'go through checks to make sure the user is ready to run routine
 GOSUB Find_Height 'moves tool up to the correct height
-J5,,,,90,0 'make sure spindle is pointing down
+J5,,,,0,0 'make sure spindle is pointing down
 GOSUB Find_Y 'locates y prox and backs off a safe distance
-JZ, %(3)
-J5,,,,90,-90 'point the spindle in negative y direction
+J5,,,,-90,-90 'point the spindle in negative y direction
 GOSUB Get_Tool_Length 'ask user to locate the side plate
 GOSUB Write_Data 'write plate location to my_variables
 JY, %(2) + &back_off_XYZ 'back off side plate
-J5,,,,90,0 'jog to spindle pointing down
+J5,,,,0,0 'jog to spindle pointing down
 GOSUB Completion_Message 
 END	'End program (prevents it from dropping through subroutines)	
 

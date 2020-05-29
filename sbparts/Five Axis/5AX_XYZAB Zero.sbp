@@ -149,7 +149,7 @@ Zero_A:
 		GOTO Failed_Contact_Exit 'if you make it here, you didn't contact anything
 		Aagain:
 			VA,,,,&A_dist,,,,,0 'Set real position and Zero Table Base Coordinates
-			JA, 90 'Jog to zero location
+			JA, 0 'Jog to zero location
 	RETURN     
 
 Zero_Y:

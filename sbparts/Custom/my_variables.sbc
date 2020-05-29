@@ -32,7 +32,7 @@
 &my_ZzeroThickness=0.121
 &my_ZzeroInput=1
 &my_ZzeroSafeZ=1.0
-&my_hasZProx=1
+&my_hasZProx= 1  
  
 'Indicates whether you always want to zero your z-axis in the same place on the table, change these values to
 ' the coordinates of the point that you want to use.
@@ -45,18 +45,18 @@
 &my_XYzeroOffsetX=-0.5
 &my_XYzeroOffsetY=-0.5
 &my_XYzeroOffsetZ=1
-'&my_XYzeroOffsetA=-87.990
-'&my_XYzeroOffsetB=95
+&my_XYzeroOffsetA=75
+&my_XYzeroOffsetB=95
 
 'For 5-Axis Tools
-&my_XYzeroOffsetA=-268.180
-&my_XYzeroOffsetB=-11.688
+&my_XYzeroOffsetA=-265.000
+&my_XYzeroOffsetB=-12.0
 &5AX_calibration_units=0
-&5AX_calibration_plate_width=.58'widthofcalibrationplate,calculatedin5AX_AB_CalibrationRoutine
-&5AX_gauge_factor=.52'distancebetweenhittingyproxswitchandhittingsideplatewithendofspindle
-&5AX_side_plate_height=2.335'distancebetweencenterofsideplateandzproxswitch
-&5AX_gauge_length=6.375'gaugelengthusedforpostprocessing(rarelychanges)
-&5AX_tool_length=2.799  'toollengthusedforpostprocessing(changeswitheverybit)
+&5AX_calibration_plate_width=.570'widthofcalibrationplate,calculatedin5AX_AB_CalibrationRoutine
+&5AX_gauge_factor=.250'distancebetweenhittingyproxswitchandhittingsideplatewithendofspindle
+&5AX_side_plate_height=1'distancebetweencenterofsideplateandzproxswitch
+&5AX_gauge_length=6.295'gaugelengthusedforpostprocessing(rarelychanges)
+&5AX_tool_length=0'toollengthusedforpostprocessing(changeswitheverybit)
 
 
 'Change this to 1 if you have either multiple cutting heads...2 routers for instance... or a drill head

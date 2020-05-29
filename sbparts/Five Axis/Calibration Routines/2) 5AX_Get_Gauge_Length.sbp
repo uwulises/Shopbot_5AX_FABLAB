@@ -90,7 +90,7 @@ Z_Zero:
 
 Get_Gauge_Length:
 	'right side:
-	J5,,-&move_past_dist,,0,90
+	J5,,-&move_past_dist,,,90
 	JZ, -&move_down_dist
 	IF %(&plate_sysvar) = 1 THEN GOTO CLOSED_EXIT 'check if input is already closed
 	ON INPUT(&plate_input, 1) GOTO RIGHT_SIDE_CONTACT 'start checking for input
