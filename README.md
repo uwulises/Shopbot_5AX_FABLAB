@@ -6,5 +6,4 @@ Repositorio destinado a documentar cambios que se hicieron a la Router CNC 5 eje
 #
 My variables
 # Rutina editada
-#
 XYZAB zero; ZERO A
