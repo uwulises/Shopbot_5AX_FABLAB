@@ -45,12 +45,12 @@
 &my_XYzeroOffsetX=-0.5
 &my_XYzeroOffsetY=-0.5
 &my_XYzeroOffsetZ=1
-'&my_XYzeroOffsetA=75
-'&my_XYzeroOffsetB=95
+'&my_XYzeroOffsetA=75 'Unused variables'
+'&my_XYzeroOffsetB=95 'ditto'
 
 'For 5-Axis Tools
-&my_XYzeroOffsetA=-88.202
-&my_XYzeroOffsetB=-11.718
+&my_XYzeroOffsetA=-88.202 'Calculated offset from A/B calibration routine'
+&my_XYzeroOffsetB=-11.718 'ditto'
 &5AX_calibration_units=0
 &5AX_calibration_plate_width=.575'widthofcalibrationplate,calculatedin5AX_AB_CalibrationRoutine
 &5AX_gauge_factor=.509000000000000001'distancebetweenhittingyproxswitchandhittingsideplatewithendofspindle
