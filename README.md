@@ -1,6 +1,6 @@
 # Shopbot_5AX_FABLAB
 
-Repositorio destinado a documentar cambios que se hicieron a la Router CNC 5 ejes del FabLab.
+Repositorio destinado a documentar cambios que se hicieron a la Router CNC 5 ejes del FabLab Uchile.
 
 #Archivos editados desde PATH/sbparts
 #
