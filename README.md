@@ -7,7 +7,7 @@ https://forums.autodesk.com/t5/hsm-post-processor-forum/shopbot-5-axis-post-issu
 <br/>
 https://forums.autodesk.com/t5/hsm-post-processor-forum/how-to-set-up-a-4-5-axis-machine-configuration/td-p/6488176
 
-#EDIT 
+# Changes
 -My variables <br/>
 -XYZAB zero; ZERO A
 
