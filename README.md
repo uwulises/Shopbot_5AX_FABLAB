@@ -6,10 +6,10 @@ LINKS <br/>
 https://forums.autodesk.com/t5/hsm-post-processor-forum/shopbot-5-axis-post-issues-wrong-moves-on-a-b-axis/td-p/7962624 
 <br/>
 https://forums.autodesk.com/t5/hsm-post-processor-forum/how-to-set-up-a-4-5-axis-machine-configuration/td-p/6488176
-#
-My variables
-# Rutina editada
-XYZAB zero; ZERO A
+
+#EDIT 
+-My variables <br/>
+-XYZAB zero; ZERO A
 
 #From Fusion 360 post proccess
 Edit range of movements, A/B; *function onOpen()*
