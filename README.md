@@ -11,7 +11,6 @@ https://forums.autodesk.com/t5/hsm-post-processor-forum/how-to-set-up-a-4-5-axis
 -My variables <br/>
 -XYZAB zero; ZERO A
 
-#From Fusion 360 post proccess
-Edit range of movements, A/B; *function onOpen()*
-#
+# From Fusion 360 post proccess
+Edit range of movements, A/B; *function onOpen() <br/>
 A:[-360,360]; B:[-120,120] degrees.
