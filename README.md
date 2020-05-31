@@ -5,8 +5,6 @@ Repositorio destinado a documentar cambios que se hicieron a la Router CNC 5 eje
 #Archivos editados desde PATH/sbparts
 #
 My variables
-# Rutinas editadas
+# Rutina editada
 #
-Get tool length
-#
-XYZAB zero
+XYZAB zero; ZERO A
