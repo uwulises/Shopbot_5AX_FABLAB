@@ -1,6 +1,6 @@
 # Shopbot_5AX_FABLAB
 
-Repositorio destinado a documentar cambios que se hicieron a la Router CNC 5 ejes del FabLab Uchile.
+Repository for documenting changes made to the ShopBot 5-Axis machine from the FabLab, University of Chile
 #
 LINKS <br/>
 https://forums.autodesk.com/t5/hsm-post-processor-forum/shopbot-5-axis-post-issues-wrong-moves-on-a-b-axis/td-p/7962624 
