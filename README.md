@@ -6,6 +6,8 @@ LINKS <br/>
 https://forums.autodesk.com/t5/hsm-post-processor-forum/shopbot-5-axis-post-issues-wrong-moves-on-a-b-axis/td-p/7962624 
 <br/>
 https://forums.autodesk.com/t5/hsm-post-processor-forum/how-to-set-up-a-4-5-axis-machine-configuration/td-p/6488176
+<br/>
+https://knowledge.autodesk.com/support/autodesk-hsm/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-enable-machine-rewinds-in-the-Haas-generic-post-processor-for-Fusion-360-HSM-CAM.html
 
 # Changes
 -My variables <br/>
