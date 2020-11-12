@@ -650,7 +650,7 @@ function onLinear5D(_x, _y, _z, _a, _b, _c, feed) {
 
 // Start of onRewindMachine logic
 /***** Be sure to add 'safeRetractDistance' to post properties. *****/
-var performRewinds = false; // enables the onRewindMachine logic
+var performRewinds = true; // enables the onRewindMachine logic
 var safeRetractFeed = (unit == IN) ? 20 : 500;
 var safePlungeFeed = (unit == IN) ? 10 : 250;
 var stockAllowance = (unit == IN) ? 0.1 : 2.5;
