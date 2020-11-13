@@ -12,6 +12,11 @@ https://knowledge.autodesk.com/support/autodesk-hsm/troubleshooting/caas/sfdcart
 # Changes
 -My variables <br/>
 -XYZAB zero; ZERO A
+# VARIABLES
+-Tool length
+-5AX_gauge_length=6.3595' in this case [inches]' <br/>
+-5AX_tool_length= 'changeswitheverytool' [inches]
+
 
 # From Fusion 360 post proccess
 Edit range of movements, A/B; *function onOpen() <br/>
