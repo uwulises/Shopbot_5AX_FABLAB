@@ -22,7 +22,7 @@ https://knowledge.autodesk.com/support/autodesk-hsm/troubleshooting/caas/sfdcart
 Edit range of movements, A/B; *function onOpen() <br/>
 A:[-360,360]; B:[-120,120] degrees.
 
-Update 10-11-2020 (not tested yet) <br/>
+Update 19-11-2020 (tested once successfully) <br/>
 Change boolean var form false to true on performRewinds
 // Start of onRewindMachine logic
 /***** Be sure to add 'safeRetractDistance' to post properties. *****/ <br/>
